@@ -6,7 +6,7 @@ public class LeaderElement_5_1 {
 		int arr[] = { 1, 6, 6, 5, 7, 4, 1, 7, 7, 7, 7, 7, 7, 7, 2 };
 		int len = arr.length;
 		int leaderlength = len / 2;
-		System.out.println(len);
+		System.out.println("total length::"+len);
         int temp=arr[0];
         int count=0;
 		for (int i = 0; i < arr.length-1; i++) {
@@ -19,7 +19,7 @@ public class LeaderElement_5_1 {
 				}
 			}  
   		}
-        System.out.println(temp);
+        System.out.println("leader element is::"+temp);
 	}
 
 }
